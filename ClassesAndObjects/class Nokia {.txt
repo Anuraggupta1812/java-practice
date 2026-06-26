@@ -1,0 +1,20 @@
+class Nokia {
+private int mic;
+private int cam;
+void Setvalue () {
+mic=2;
+cam=45;
+}
+void display () {
+System.out.println("mic");
+System.out.println("cam");
+}
+}
+class ClassesAndObjects {
+public static void main(String[] args) {
+Nokia n1=new Nokia();
+n1.display();
+n1.Setvalue();
+n1.display();
+}
+}
